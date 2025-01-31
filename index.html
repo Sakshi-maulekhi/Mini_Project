@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service h3 {
+            margin-bottom: 10px;
+        }
+        .service p {
+            margin-bottom: 15px;
+        }
+        .service button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .service button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Sales Service</h1>
+</header>
+
+<nav>
+    <a href="homePage.html">Home</a>
+    <a href="servicePage.html">Services</a>
+    <a href="contactus.html">Contact Us</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>About Us</h2>
+    <p>We offer top-notch sales services to help your business grow. Our team is dedicated to providing excellent customer service and innovative solutions tailored to your needs.</p>
+</div>
+
+<div class="container" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Product Sales</h3>
+            <p>We provide a wide range of products at competitive prices.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="service">
+            <h3>Consulting</h3>
+            <p>Get expert advice to boost your sales strategies.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="service">
+            <h3>Support</h3>
+            <p>24/7 customer support for all your sales-related queries.</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sales@company.com</p>
+    <p>Phone: +1 234 567 890</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sales Service Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
